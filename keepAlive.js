@@ -1,9 +1,9 @@
 const https = require("https");
 const http = require("http");
 
-//const URL = "https://factoryflow-backend.onrender.com/api/ping"; // Reemplaza con tu URL
+const URL = "https://factoryflow-backend.onrender.com/api/ping"; // Reemplaza con tu URL
 //const URL = "http://localhost:3000/api/ping";
-const URL = "http://192.168.1.48:3000/api/ping";
+//const URL = "http://192.168.1.48:3000/api/ping";
 
 const ping = () => {
   http
