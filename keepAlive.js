@@ -6,7 +6,7 @@ const URL = "https://factoryflow-backend.onrender.com/api/ping"; // Reemplaza co
 //const URL = "http://192.168.1.48:3000/api/ping";
 
 const ping = () => {
-  http
+  https
     .get(URL, (res) => {
       let data = "";
       res.on("data", (chunk) => {
